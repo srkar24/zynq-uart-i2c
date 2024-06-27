@@ -1,0 +1,12 @@
+# Ignore build and ip_repo folders in hardware directory
+hardware/build
+hardware/ip_repo
+
+# Ignore everything in software directory
+software/*
+# but not the software/tmp3_uart_app directory
+!software/tmp3_uart_app
+# Ignore everything in software/tmp3_uart_app directory
+software/tmp3_uart_app/*
+# but not the software/tmp3_uart_app/src directory
+!software/tmp3_uart_app/src
